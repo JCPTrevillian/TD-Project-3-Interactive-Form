@@ -7,7 +7,7 @@ name.focus();
 const jobTitle=document.getElementById("title");
 const otherTitle=document.getElementById("other-job-role")
 
-otherTitle.style.display="name";
+otherTitle.style.display="none";
 
 jobTitle.addEventListener("change", (e) => {
     if(e.target.value === "other") {
