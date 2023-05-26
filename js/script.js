@@ -45,7 +45,6 @@ jobTitle.addEventListener("change", (e) => {
 
 //activities section - make sure all checked box activities provide accurate sum. Called event listener
 //change event to target data cost to add or subtract activity and a template literal to sum cost. 
-//I initially considered utilizing a for loop here (if conference fee/else to add individual class fees). 
 //Asked for help with plural and sigular variable confusion within my event listener (lines 50 and 60).
 
 const activities=document.getElementById("activities");
